@@ -3,3 +3,4 @@ nltk_data/
 .gitignore.swp
 .jupyter/
 .local/
+deliver/.ipynb_checkpoints/
