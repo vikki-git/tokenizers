@@ -1,2 +1,5 @@
 .ipython/
 nltk_data/
+.gitignore.swp
+.jupyter/
+.local/
