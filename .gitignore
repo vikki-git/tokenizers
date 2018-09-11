@@ -4,3 +4,5 @@ nltk_data/
 .jupyter/
 .local/
 deliver/.ipynb_checkpoints/
+develop/.ipynb_checkpoints/
+.cache/
