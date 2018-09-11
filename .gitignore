@@ -6,3 +6,5 @@ nltk_data/
 deliver/.ipynb_checkpoints/
 develop/.ipynb_checkpoints/
 .cache/
+.python_history
+

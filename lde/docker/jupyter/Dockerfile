@@ -11,6 +11,8 @@ USER 1000
 RUN pip install --upgrade pip
 RUN pip install nltk
 RUN pip install numpy
+RUN [ "python", "-c", "import nltk; nltk.download('all')" ]
+
 RUN pip install -U spacy
 RUN python -m spacy download en
 
