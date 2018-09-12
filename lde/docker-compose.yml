@@ -5,7 +5,9 @@ services:
                 ports:
                 - 8888
                 volumes:
-                - ${LOCAL_WORKING_DIR}:/home/jovyan
+                - ${LOCAL_DEVELOP_DIR}:/home/jovyan/develop
+                - ${LOCAL_DATA_DIR}:/home/jovyan/data
+                - ${LOCAL_DELIVERY_DIR}:/home/jovyan/delivery
                 command: "start-notebook.sh \
                           --NotebookApp.password=${ACCESS_TOKEN}
                           --NotebookApp.token=${TOKEN}"
