@@ -2,7 +2,7 @@
 
 echo && date
 
-chmod -R 777 .
+chmod -R o+w .
 cd lde/
 docker-compose up -d
 docker-compose ps
