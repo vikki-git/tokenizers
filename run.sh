@@ -2,7 +2,7 @@
 
 echo && date
 
-chmod -R o+w .
+chmod -R o+w ./work
 cd lde/
 docker-compose up -d
 docker-compose ps
